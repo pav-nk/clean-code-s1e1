@@ -21,7 +21,7 @@
 }
 
 @media (max-width:768px) {
-  .header { 
+  .header {
     text-align: center;
   }
 }
@@ -43,16 +43,16 @@
 }
 
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .item, .sub-title {
-  list-style:none;
+  list-style: none;
 }
 
 .input,.btn{
-  outline:none;
+  outline: none;
 }
 
 .btn {
@@ -123,7 +123,6 @@
   vertical-align: middle;
 }
 
-
 .item > .checkbox {
   margin: 0 10px;
 }
@@ -157,14 +156,14 @@
 
 /* Edit Task */
 .item .input-text {
-  display:none
+  display: none
 }
 
 .item.edit-mode .input-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .item.edit-mode .item-title {
-  display:none;
+  display: none;
 }
