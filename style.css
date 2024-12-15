@@ -35,7 +35,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .input-field {
@@ -135,7 +135,7 @@
 }
 
 .item >    .input-text {
-  width: 226px
+  width: 226px;
 }
 
 .btn-img {
@@ -150,18 +150,18 @@
 
 /* Completed */
 .list#completed-tasks .item-title {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .item .input-text {
-  display: none
+  display: none;
 }
 
 .item.edit-mode .input-text {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .item.edit-mode .item-title {
